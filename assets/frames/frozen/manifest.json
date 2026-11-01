@@ -1,0 +1,19 @@
+{
+  "name": "frozen",
+  "desktop": {
+    "count": 200,
+    "width": 1920
+  },
+  "mobile": {
+    "count": 120,
+    "width": 1080
+  },
+  "sourceFrames": 241,
+  "trimmedStart": 0,
+  "trimmedEnd": 0,
+  "hit": 0.6208,
+  "aspect": [
+    16,
+    9
+  ]
+}

@@ -1,0 +1,3 @@
+/* Provisional: sampled by eye from the purple logo supplied in chat.
+   tools/fetch_assets.py overwrites this with the exact pixel value. */
+:root { --rio-purple: #3B1466; }

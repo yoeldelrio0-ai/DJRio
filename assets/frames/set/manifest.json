@@ -1,0 +1,19 @@
+{
+  "name": "set",
+  "desktop": {
+    "count": 200,
+    "width": 1920
+  },
+  "mobile": {
+    "count": 120,
+    "width": 1080
+  },
+  "sourceFrames": 241,
+  "trimmedStart": 1,
+  "trimmedEnd": 0,
+  "hit": 0.2636,
+  "aspect": [
+    16,
+    9
+  ]
+}
