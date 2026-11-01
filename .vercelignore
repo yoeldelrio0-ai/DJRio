@@ -1,0 +1,12 @@
+# source masters and dev tooling, not served
+films/
+tools/
+lab/
+node_modules/
+assets/plates/*.png
+BRIEF.md
+serve.py
+Launch DJ Rio.command
+Launch DJ Rio.bat
+package.json
+package-lock.json
