@@ -415,7 +415,7 @@ function setLang(l) {
   root.lang = lang; document.title = t("title");
   $$("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
   $$("[data-i18n-alt]").forEach(el => { el.alt = t(el.dataset.i18nAlt); });
-  $$("figure").forEach(f => f.dataset.pending = t("photo.pending"));
+  $$(".card figure").forEach(f => f.dataset.pending = $("h3", f.parentElement).textContent);
   $$("[data-lang]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
   $("#mixLo").setAttribute("aria-label", t("aria.lo")); $("#mixHi").setAttribute("aria-label", t("aria.hi"));
   const note = $(".quotes__note"); note.hidden = !t("reviews.note");
