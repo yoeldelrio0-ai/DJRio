@@ -80,7 +80,7 @@ function hslToRgb([h, s, l]) {
 // Base tones: the logo purple itself (fills) and the same hue lifted for text,
 // borders and focus rings on the near-black ground.
 const root = document.documentElement;
-const brand = parseColor(getComputedStyle(root).getPropertyValue("--rio-purple") || "#3B1466");
+const brand = parseColor(getComputedStyle(root).getPropertyValue("--rio-purple") || "#35126A");
 const [bh, bs] = rgbToHsl(brand);
 const TONES = {
   "--accent": hslToRgb([bh, Math.min(.72, bs + .1), .72]),

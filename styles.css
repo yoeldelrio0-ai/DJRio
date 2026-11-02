@@ -3,7 +3,7 @@
    --accent is the same hue lifted for legibility on the dark ground; both pass
    through the genre filter maths in app.js so the UI matches the paint. */
 :root {
-  --rio-purple: #3B1466;          /* overridden by assets/brand.css when sampled */
+  --rio-purple: #35126A;          /* overridden by assets/brand.css when sampled */
   --accent: #A98AE0;              /* set at runtime from --rio-purple */
   --accent-fill: var(--rio-purple);
   --canvas: #08070B;
@@ -116,6 +116,7 @@ button, input, select { font: inherit; color: inherit; }
   position: absolute; left: var(--cone-x, 50%); top: var(--logo-y, 13%); width: min(30vw, 420px); transform: translateX(-50%);
   z-index: 2; will-change: transform, opacity;
 }
+.drop__logo img { width: 100%; height: auto; }
 .drop__logo::before { /* low lift so the dark logo purple reads on black */
   content: ""; position: absolute; inset: -30% -40%; z-index: -1;
   background: radial-gradient(closest-side, rgba(226,214,255,.16), rgba(226,214,255,0));
